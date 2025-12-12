@@ -12,7 +12,7 @@ public class Task1 {
 		System.out.println("you have" + k + "attempts per round to   guess the correct number");
 		while(!guessedcorrectly) {
 			for(int i=0;i<k;i++) {
-				System.out.println("enter your guess:1");
+				System.out.println("enter your guess:");
 				int guess=sc.nextInt();
 				attempts++;
 				if(guess==number) {
@@ -50,3 +50,4 @@ public static void main(String[]args) {
 	guessingnumbergame();
 }
 }
+
